@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@demotestbranch
+        uses: actions/checkout@main
 
       - name: Log in to Azure
         run: |
